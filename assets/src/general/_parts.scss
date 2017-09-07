@@ -1,0 +1,19 @@
+.btn {
+	width: rem(395);
+	height: rem(58);
+	border: rem(2) solid $black-1;
+	background-color: $black-1;
+	color: $white;
+	text-decoration: none;
+	display: flex;
+	flex-decoration: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	transition: all .3s ease;
+	&:hover {
+		background-color: lighten($black-1, 15% );
+		border: 2px solid lighten($black-1, 15% );
+	}
+}

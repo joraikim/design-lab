@@ -1,0 +1,38 @@
+.title-icon-text {
+	padding: rem(105) 0 rem(114) 0;
+	&__info-wrap {
+		@extend .title-text__info-wrap;
+		padding: 0;
+		
+		
+	}
+
+	&__title {
+		margin-bottom: rem(113);
+		@extend .title-text__title;
+	} 	
+	&__article {
+		margin-bottom: rem(92);
+		width: 65%;
+		text-align: center;
+	}
+	&__icon {
+		max-width: rem(80);
+		max-height: rem(91);
+		margin-bottom: rem(40);
+		
+	}
+
+	&__heading {
+		margin-bottom: rem(40);
+		font-size: $heading-font-size;
+		color: black-1;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 6px;
+		
+	}
+	&__text {
+		font-size: calc( #{ $text-size + ' - ' + rem(2)} ); 
+	}
+}
